@@ -1,22 +1,46 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mansalva', cursive;
+
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+h3 {
+  font-size: 4em;
 }
 
-.App-header {
-  background-color: #282c34;
+.fullpage {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #09d3ac;
+.cards-wrapper {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.first {
+  background-color: rgb(186, 107, 240);
+}
+
+.second {
+  background-color: rgb(86, 247, 94);
+}
+
+.third {
+  background-color: rgb(241, 88, 50);
 }

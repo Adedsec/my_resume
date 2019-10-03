@@ -1,0 +1,11 @@
+.card {
+    padding: 3vw;
+    margin: 1vw;
+    background-color: rgb(243, 109, 85);
+}
+
+.card-image {
+    object-fit: cover;
+    width: 15vw;
+    height: 15vw;
+}
