@@ -10,37 +10,14 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
 h3 {
-  font-size: 4em;
-}
-
-.fullpage {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.cards-wrapper {
-  margin-top: 5vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.first {
-  background-color: rgb(186, 107, 240);
-}
-
-.second {
-  background-color: rgb(86, 247, 94);
-}
-
-.third {
-  background-color: rgb(241, 88, 50);
+  font-size: 3rem;
 }
