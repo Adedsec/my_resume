@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Fullpage from "../components/Fullpage";
 import data from "../data.json";
 import { SocialIcon } from "react-social-icons";
+import "./TitleSection.css";
+
 class TitleSection extends Component {
   render() {
     return (

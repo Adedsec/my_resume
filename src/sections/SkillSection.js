@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Fullpage from "../components/Fullpage";
 import data from "../data.json";
 import SkillCard from "../components/SkillCard";
+import "./SkillSection.css";
 class SkillSection extends Component {
   render() {
     return (

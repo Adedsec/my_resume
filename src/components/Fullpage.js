@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../fullpage.css";
+import "./fullpage.css";
 class Fullpage extends Component {
   render() {
     const { children } = this.props;

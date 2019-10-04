@@ -1,0 +1,14 @@
+.second {
+    background-color: rgb(241, 88, 50);
+    justify-content: center;
+}
+
+.text-wrapper {
+    margin: 50px 20px 0px 20px;
+
+}
+
+p {
+    text-align: left;
+    font-size: 2.5vw;
+}

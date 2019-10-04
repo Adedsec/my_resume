@@ -1,0 +1,15 @@
+.cards-wrapper {
+    margin-top: 5vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    background-color: rgb(86, 247, 94);
+
+}

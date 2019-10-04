@@ -1,11 +1,35 @@
 .card {
-    padding: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw 2vw 1vw 2vw;
     margin: 1vw;
     background-color: rgb(243, 109, 85);
+    width: 17vw;
+    height: 17vw;
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 4px 3px 20px rgb(146, 39, 39), -4px -3px 20px rgb(146, 39, 39);
+}
+
+.image-wrapper {
+    width: 80%;
+    height: 80%;
 }
 
 .card-image {
-    object-fit: cover;
-    width: 15vw;
-    height: 15vw;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+h4 {
+    font-size: 2vw;
+}
+
+.skill-title-wrapper {
+    margin-top: 10px;
 }
