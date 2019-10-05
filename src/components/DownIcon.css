@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.down:hover {
+    cursor: pointer;
+}
+
+.down-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -45px;
+    transform: translatey(-60px);
+}
+
+.down {
+    max-width: 30px;
+}
+
+.down img {
+    max-width: 100%;
+}

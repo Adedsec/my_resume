@@ -4,7 +4,13 @@
   "links": {
     "github": "https://github.com/Adedsec",
     "stackOverflow": "https://stackoverflow.com/story/dedsec",
-    "linkedin": "https://www.linkedin.com/in/aref-maddah-7639ba16a/"
+    "linkedin": "https://www.linkedin.com/in/aref-maddah-7639ba16a/",
+    "instagram": "https://www.instagram.com/a.dedsec",
+    "twitter": "https://twitter.com/a_dedsec"
+  },
+  "icons": {
+    "down": "images/down.svg",
+    "theme": "images/paint.svg"
   },
   "sections": [
     {

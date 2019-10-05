@@ -5,14 +5,14 @@
     flex-direction: column;
     padding: 2vw 2vw 1vw 2vw;
     margin: 1vw;
-    background-color: rgb(243, 109, 85);
+    background-color: rgba(247, 167, 167, 0.2);
     width: 17vw;
     height: 17vw;
     border-radius: 20px;
 }
 
 .card:hover {
-    box-shadow: 4px 3px 20px rgb(146, 39, 39), -4px -3px 20px rgb(146, 39, 39);
+    box-shadow: 4px 3px 5px rgba(124, 114, 114, 0.397), -4px -3px 5px rgba(124, 114, 114, 0.397);
 }
 
 .image-wrapper {

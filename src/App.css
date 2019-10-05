@@ -3,7 +3,8 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Mansalva', cursive;
-
+  scroll-behavior: smooth;
+  color: #F7A7A7;
 }
 
 .App {

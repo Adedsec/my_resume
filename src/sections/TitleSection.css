@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 .first {
-    background-color: rgb(186, 107, 240);
+    /*background-color: rgb(186, 107, 240);*/
+}
+
+.social-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-item {
+    margin: 10px;
 }
