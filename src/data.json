@@ -2,11 +2,20 @@
   "title": "Hello I'm aref !",
   "subtitle": "Android Dev | Front-End Dev ",
   "links": {
-    "github": "https://github.com/Adedsec",
-    "stackOverflow": "https://stackoverflow.com/story/dedsec",
-    "linkedin": "https://www.linkedin.com/in/aref-maddah-7639ba16a/",
-    "instagram": "https://www.instagram.com/a.dedsec",
-    "twitter": "https://twitter.com/a_dedsec"
+    "github": { "url": "https://github.com/Adedsec", "icon": "github" },
+    "stackOverflow": {
+      "url": "https://stackoverflow.com/story/dedsec",
+      "icon": "stack-overflow"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/aref-maddah-7639ba16a/",
+      "icon": "linkedin"
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/a.dedsec",
+      "icon": "instagram"
+    },
+    "twitter": { "url": "https://twitter.com/a_dedsec", "icon": "twitter" }
   },
   "icons": {
     "down": "images/down.svg",

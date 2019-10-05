@@ -4,6 +4,12 @@ import data from "../data.json";
 import { SocialIcon } from "react-social-icons";
 import "./TitleSection.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+library.add(fab);
 class TitleSection extends Component {
   render() {
     return (
@@ -15,11 +21,24 @@ class TitleSection extends Component {
             {Object.keys(data.links).map(key => {
               return (
                 <div className="social-item">
-                  <SocialIcon
-                    url={data.links[key]}
+                  <a
+                    href={data.links[key].url}
+                    className="social"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      size="3x"
+                      prefix="fab"
+                      icon={["fab", data.links[key].icon]}
+                    />
+                  </a>
+
+                  {/* <SocialIcon
+                    url={data.links[key].url}
                     target="_blank"
                     rel="social"
-                  />
+                  /> */}
                 </div>
               );
             })}
