@@ -37,28 +37,28 @@
         {
           "type": "card",
           "content": {
-            "image": "/images/react.png",
+            "image": "images/react.png",
             "title": "React"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "/images/android.png",
+            "image": "images/android.png",
             "title": "Android"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "/images/html-5.png",
+            "image": "images/html-5.png",
             "title": "Html"
           }
         },
         {
           "type": "card",
           "content": {
-            "image": "/images/css-3.png",
+            "image": "images/css-3.png",
             "title": "Sass"
           }
         }
