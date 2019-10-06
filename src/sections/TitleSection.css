@@ -12,6 +12,11 @@
     justify-content: space-evenly;
 }
 
+
 .social-item {
     margin: 10px;
+}
+
+a {
+    font-size: 1vw;
 }

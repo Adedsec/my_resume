@@ -6,7 +6,10 @@ class AboutSection extends Component {
   render() {
     return (
       <Fullpage className="second" id={this.props.id}>
-        <h3>{data.sections[0].title}</h3>
+        <div className="title-wrapper">
+          <h3 className="about-title">{data.sections[0].title}</h3>
+        </div>
+
         <div className="text-wrapper">
           <p>{data.sections[0].items[0].content}</p>
         </div>

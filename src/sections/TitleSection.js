@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import Fullpage from "../components/Fullpage";
 import data from "../data.json";
-import { SocialIcon } from "react-social-icons";
 import "./TitleSection.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 library.add(fab);
