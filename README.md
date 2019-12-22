@@ -1,3 +1,5 @@
+Home page : https://Adedsec.github.io/my_resume
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
